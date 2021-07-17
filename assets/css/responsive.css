@@ -1,0 +1,205 @@
+@media (min-width: 1240px) {
+    .menu-bar {
+        display: block;
+    }
+    .test {
+        display: block;
+    }
+    .header__navbar-menu-bar-pc > img {
+        display: block;
+    }
+    
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1239px) {
+    :root {
+        --header-height: 125px;
+    } 
+    .header {
+        background-color: #555;
+    }
+    .header__navbar-logo > img {
+        top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header__navbar-menu-bar-low-resolution > img {
+        display: block;
+        left: 50%;
+        transform: translateY(150%) translateX(-50%);
+    }
+
+    
+    .nav__input-low:checked ~ .menu-bar-low-resolution {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .search-holiday__content-input {
+        width: 90%;
+    }
+    .search-holiday__content-group {
+        display: block;
+    }
+
+    .search-holiday__content-group-item > p {
+        padding-bottom: 19px;
+    }
+
+    .m-offset-4 {
+        margin-left: 33.33333%;
+    }
+
+    .proposal {
+        margin-top: 120px;
+    }
+    
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .best-beach__content {
+        margin-bottom: 50px;
+    }
+
+    /* Footer */
+    .footer__lower-content-right {
+        padding: 0 0 0 46px;
+    }
+
+    .footer__slogan-text > h6, .footer__slogan-copyright > h6 {
+        text-align: center;
+    }
+
+    .footer-link-direct {
+        margin: 0;
+    }
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .search-holiday__content-heading {
+        font-size: 4.9rem;
+    }
+    /* Proposal */
+    .proposal {
+        margin-top: 20px;
+    }
+
+    .proposal__place {
+        margin: 30px 30px 0;
+    }
+    .promotion__package-group-info-details-group  {
+        font-size: 1.4rem;
+        padding: 0px 13px;
+        line-height: 0;
+    }
+    .next-holiday-heading-1 {
+        margin-left: 10px;
+    }
+
+    .best-beach__info-2 {
+        margin: 116px 0 0;
+    }
+
+    .best-beach__info-2-container {
+        display: block;
+        margin: 140px 25px 0;
+    }
+
+    .best-beach__content,
+    .best-beach__img {
+        margin: 0 25px 50px;
+    }
+
+    .best-beach__content-heading {
+        font-size: 3rem;
+    }
+
+    .best-beach__img-1, .best-beach__img-2, .best-beach__img-3 {
+        height: 200px;
+    }
+
+    .timing {
+        width: 100%;
+        height: auto;
+        bottom: unset;
+    }
+
+    .timing-content {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    .timing-content > span {
+        display: none;
+    }
+    
+    .timing__count {
+        position: relative;
+        margin: 0;
+        height: 54px;
+    }
+
+    .timing__text {
+        margin: 0;
+        padding: 13px 0;
+    }
+
+    .separate {
+        position: absolute;
+        background-color: #60C9DE;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0px;
+    }
+
+    .best-beach__special {
+        margin: 40px 0;
+    }
+
+    
+
+    /* Promotion */
+    .promotion {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-left: 50px;
+        padding-right: 50px;    
+    }
+
+    .footer__lower-content-left {
+        padding: 50px 40px 0
+    }
+    .footer__lower-content-right {
+        padding: 0 40px 10px;
+    }
+
+    .footer__slogan-text > h6, .footer__slogan-copyright > h6 {
+        text-align: center;
+    }
+
+    .footer-heading {
+        font-size: 3rem;    
+    }
+
+    .footer-link-direct { 
+        display: block;
+    }
+
+    .footer-link-direct > button {
+        width: 100%;
+        margin-top: 14px;
+    }
+/*     
+    .timing__text {
+        margin: 13px 0 0 0;
+    } */
+}
